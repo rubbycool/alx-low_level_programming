@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include <stdio.h>
 
 /**
  *puts2 - print every other charachter of a string

@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 /**
- * _strcmp - compares two strings
- * @s1: first string
- * @s2: second string
+ *_puts - prints a string
+ *@str: string
  *
- * Return: outputs the difference of s1 and s2
+ *Return : nothing
  */
 
-int _strcmp(char *s1, char *s2)
+void puts(char *str)
 {
 	int i = 0;
 
-	while (*(s1 + i) && *(s2 + i) && (*(s1 + i) == *(s2 + i)))
+	while (str[i] != '\0')
+	{
+		putchar(str[i]);
 		i++;
-	return (*(s1 + i) - *(s2 + i));
+	}
+	putchar('\n');
 }

@@ -1,4 +1,4 @@
-In this section the following aspect was treated.
+In this section the following aspects were treated.
 Why C programming is awesome
 Who invented C
 Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
